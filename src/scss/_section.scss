@@ -1,15 +1,18 @@
 section {
-
     margin: auto;
+    margin-top: 1.5*$altezza_header;
     width: 70vw;
 
     h2 {
-        color: $primary_grey;
         margin-top: $spacing_p * 2;
+        color: $primary_grey;
     }
 
     p {
+        color: $primary_grey;
         margin: $spacing_p 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 90%;
     }
 
     a {

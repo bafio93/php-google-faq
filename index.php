@@ -26,9 +26,16 @@ $faq = [
         <title>Google FAQS</title>
         <link rel="stylesheet" href="public/css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+            <div class="header_top">
+
+            </div>
+            <div class="header_bottom">
+
+            </div>
         </header>
         <section>
             <!-- Apriamo qui il foreach: -->

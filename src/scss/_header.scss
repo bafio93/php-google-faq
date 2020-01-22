@@ -1,0 +1,9 @@
+header {
+    height: $altezza_header;
+    background-color: rgba(235, 155, 52,0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid $primary_grey;
+}
