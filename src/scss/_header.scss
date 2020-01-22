@@ -1,9 +1,53 @@
 header {
     height: $altezza_header;
-    background-color: rgba(235, 155, 52,0.25);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    background-color: white;
     border-bottom: 1px solid $primary_grey;
+
+    a {
+        text-decoration: none;
+        color: $primary_grey;
+        font-weight: bold;
+    }
+
+    .header_top {
+        height: 70%;
+        padding: 0.9*$spacing_p;
+
+        img {
+            height: 25px;
+        }
+
+        span {
+            font-size: 20px;
+            position: relative;
+            top: -6px;
+            left: 15px;
+        }
+
+    }
+
+    .header_bottom {
+        height: 30%;
+
+        a {
+            margin: 0 0.9*$spacing_p;
+            display: inline-block;
+            height: 100%;
+
+            &.right {
+                float: right;
+            }
+
+            &.active {
+                color: $primary_blue;
+                border-bottom: 3px solid $primary_blue;
+            }
+        }
+
+    }
+
 }

@@ -8,12 +8,53 @@
 
 header {
   height: 100px;
-  background-color: rgba(235, 155, 52, 0.25);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  background-color: white;
   border-bottom: 1px solid dimgrey;
+}
+
+header a {
+  text-decoration: none;
+  color: dimgrey;
+  font-weight: bold;
+}
+
+header .header_top {
+  height: 70%;
+  padding: 27px;
+}
+
+header .header_top img {
+  height: 25px;
+}
+
+header .header_top span {
+  font-size: 20px;
+  position: relative;
+  top: -6px;
+  left: 15px;
+}
+
+header .header_bottom {
+  height: 30%;
+}
+
+header .header_bottom a {
+  margin: 0 27px;
+  display: inline-block;
+  height: 100%;
+}
+
+header .header_bottom a.right {
+  float: right;
+}
+
+header .header_bottom a.active {
+  color: dodgerblue;
+  border-bottom: 3px solid dodgerblue;
 }
 
 section {

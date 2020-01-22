@@ -30,11 +30,17 @@ $faq = [
     </head>
     <body>
         <header>
-            <div class="header_top">
 
+            <div class="header_top">
+                <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt=""><span>Privacy e termini</span></a>
             </div>
             <div class="header_bottom">
-
+                <a href="#">Introduzione</a>
+                <a href="#">Norme sulla privacy</a>
+                <a href="#">Termini di servizio</a>
+                <a href="#">Tecnologie</a>
+                <a href="#" class="active">Domande frequenti</a>
+                <a href="#" class="right">Account Google</a>
             </div>
         </header>
         <section>
