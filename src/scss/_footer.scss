@@ -1,0 +1,21 @@
+footer {
+    background-color: $primary_footer;
+    height: 0.5 * $altezza_header;
+    padding: 0 15vw;
+    margin-top: 0.5 * $altezza_header;
+    line-height: 0.5 * $altezza_header;
+
+    a {
+        text-decoration: none;
+        color: $primary_grey;
+        font-size: 80%;
+        margin-right: 0.5*$spacing_p;
+    }
+
+    .right {
+        float: right;
+        width: 2 * $altezza_header;
+        transform: translateY(75%);
+    }
+
+}

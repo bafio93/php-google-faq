@@ -30,7 +30,6 @@ $faq = [
     </head>
     <body>
         <header>
-
             <div class="header_top">
                 <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt=""><span>Privacy e termini</span></a>
             </div>
@@ -53,6 +52,16 @@ $faq = [
             <?php } ?>
         </section>
         <footer>
+            <a href="#">Introduzione</a>
+            <a href="#">Norme sulla privacy</a>
+            <a href="#">Termini di servizio</a>
+            <a href="#">Tecnologie</a>
+            <select class="right">
+                <option value="it">Italiano</option>
+                <option value="uk">Inglese</option>
+                <option value="es">Spagnolo</option>
+                <option value="fr">Francese</option>
+            </select>
         </footer>
     </body>
 </html>

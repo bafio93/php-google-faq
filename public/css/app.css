@@ -80,3 +80,25 @@ section a {
   color: dodgerblue;
 }
 
+footer {
+  background-color: whitesmoke;
+  height: 50px;
+  padding: 0 15vw;
+  margin-top: 50px;
+  line-height: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: dimgrey;
+  font-size: 80%;
+  margin-right: 15px;
+}
+
+footer .right {
+  float: right;
+  width: 200px;
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+}
+
