@@ -1,0 +1,27 @@
+* {
+  font-family: "Roboto", arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+section {
+  margin: auto;
+  width: 70vw;
+}
+
+section h2 {
+  color: "#3c4043";
+  margin-top: 60px;
+}
+
+section p {
+  margin: 30px 0;
+}
+
+section a {
+  text-decoration: none;
+  color: "#2962ff";
+}
+

@@ -18,29 +18,28 @@ $faq = [
         "answer" => "<p>In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <a href='#'>URL referrer</a>. Talvolta, l'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href='#'>qui</a>. Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio.</p>"
     ]
 ];
-// In seguito, creiamo il file HTML come solito:
-
-// foreach ($faq as $value) {
-//     echo "<pre>";
-//     echo $value["question"];
-//     echo "</pre>";
-//     echo "<pre>";
-//     echo $value["answer"];
-//     echo "</pre>";
-// };
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
         <title>Google FAQS</title>
+        <link rel="stylesheet" href="public/css/app.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- Apriamo qui il foreach: -->
-        <?php foreach ($faq as $value) { ?>
-
-            <h1><?php echo $value["question"] ?></h1>
-            <p><?php echo $value["answer"] ?></p>
-        <?php } ?>
+        <header>
+        </header>
+        <section>
+            <!-- Apriamo qui il foreach: -->
+            <?php foreach ($faq as $value) { ?>
+                <!-- Stampiamo come h2 la domanda da porre: -->
+                <h2><?php echo $value["question"] ?></h2>
+                <!-- Stampiamo l'intero testo della risposta così com'è (già formattato) -->
+                <?php echo $value["answer"] ?>
+            <?php } ?>
+        </section>
+        <footer>
+        </footer>
     </body>
 </html>
